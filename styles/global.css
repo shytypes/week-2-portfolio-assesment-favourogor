@@ -8,3 +8,46 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+#container {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  background-color: pink;
+
+}
+ img {
+  border-radius: 80%;
+  margin: auto;
+ }
+ .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+ main {
+  padding: 20px 200px;
+ }
+ .info > div {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+ }
+ hr {
+  color: pink;
+ }
+ h2 {
+  color: rgb(156, 4, 30);
+  text-align: center;
+ }
+ p, ul {
+  text-align: center;
+  font-size: large;
+ }
