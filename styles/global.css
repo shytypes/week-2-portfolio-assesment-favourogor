@@ -51,3 +51,37 @@ header {
   text-align: center;
   font-size: large;
  }
+ .contact {
+  text-align: left;
+ }
+
+ #form {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 100px;
+ }
+.form {
+  margin: auto;
+}
+
+ label {
+    width: 100%;
+    font-weight: bold;
+ }
+ input {
+  padding: 10px;
+  border: 1px solid pink;
+  border-radius: 5px;
+  width: 100%;
+}
+button {
+  align-self: center;
+  border-radius: 10px;
+  width: 50%;
+  height:50px;
+  border-color: brown;
+}
+button:hover {
+  background-color: pink;
+}
