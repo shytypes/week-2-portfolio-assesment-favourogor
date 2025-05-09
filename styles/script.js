@@ -17,14 +17,16 @@ form.addEventListener("submit", function(e) {
 
     const infoDiv =
     document.createElement("div");
-    infoDiv.innerHTML = 
+    infoDiv.innerHTML = `
       <h3>Submitted info:</h3>
       <p>First Name: ${firstName}</p>
       <p>Second Name: ${secondName}</p>
       <p>Email: ${email}</p>
       <hr />
+     ` ; 
+   
       
       displayArea.appendChild(infoDiv);
 
-      form.requestFullscreen();
+      
 });
